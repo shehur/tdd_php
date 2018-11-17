@@ -1,5 +1,5 @@
 ﻿<?php
 
-function somar($a, $b) {
+function somar($a=0, $b=0) {
 	return $a + $b;
 }

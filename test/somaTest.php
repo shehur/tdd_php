@@ -10,4 +10,8 @@ class SomaTest extends TestCase {
 		$this->assertEquals(5, somar(2, 3));
 	}
 
+	public function testSomaSemParametros() {
+		$this->assertEquals(0, somar());
+	}
+
 }
